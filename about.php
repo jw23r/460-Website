@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html>
- <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-      <link href="main.css" rel="stylesheet">
-  </head>
-  <body>
+<?php
 
-     <header>
-         <nav>
-             <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-                  <li><a href="/student/game1.html">game1</a></li>
-                      <li><a href="/student/connect4.html">game2</a></li>
-        </ul>
-         </nav>
-      </header>
-       
-      <h1>Welcome This my about me</h1>
+include("functions.php");
+pageTop('home',['jim','jones']);
+?>
+<h1>Welcome This my about me</h1>
       <p></p>
        <img src="imgs/me.jpg" width="100%">
       <h2>about me</h2> 
@@ -29,5 +13,8 @@
       <h3>What i think you should look at </h3>
       <li> <a href="http://blog.dota2.com/?l=english">dota</a></li>
       <li><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">How to be a God!</a></li>
-  </body>
-</html> 
+<?
+pageBottom();
+?>
+       
+      
