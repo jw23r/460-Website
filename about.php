@@ -14,6 +14,7 @@ pageTop('home',['jim','jones']);
       <li> <a href="http://blog.dota2.com/?l=english">dota</a></li>
       <li><a href="https://www.youtube.com/watch?v=oHg5SJYRHA0">How to be a God!</a></li>
 <?
+footers();
 pageBottom();
 ?>
        

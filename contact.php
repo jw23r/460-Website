@@ -16,6 +16,7 @@ pageTop();
        </form>
             
 <?
+footers();
 pageBottom();
 ?>
 

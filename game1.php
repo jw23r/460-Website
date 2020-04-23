@@ -19,6 +19,7 @@ pageTop();
       a file location where you would like to save the game.<br> After exctraing open the folder and click pinball file to open game </p></div>
      <div id="download"><P class="box"><a class="blue" href="#" download="Downloads/Pinball.zip">Pinball</a></P></div> 
 <?
+footers();
 pageBottom();
 ?>
 
