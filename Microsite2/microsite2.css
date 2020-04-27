@@ -38,14 +38,14 @@
     padding: 10px;
     color: #ffffff;
 }
-.donatepage{
+#donatepage{
   
     position: absolute;
  
     top: 40%;
  left: 15%;
   width: 900px;
-    height: 683px;
+    height: 398px;
     background: #000000;
     background-clip: padding-box;          /* Background stops at border */
     border: 40px solid rgba(255,255,255,.2);
@@ -232,4 +232,24 @@ width: 409px;
     top: 161px;
         border: 13px solid rgba(255,255,255,.0);
     color: #6b7788;
+}
+#heart {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    
+}
+#paypal {
+    position: absolute;
+    top: 240px;
+    left:287px;  
+}
+#wepay {
+    position: absolute;
+    top: 300px;
+    left:287px;  
+}
+#help{
+    top: 100px;
+    left: 287px;
 }
