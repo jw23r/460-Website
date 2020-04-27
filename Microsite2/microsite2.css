@@ -3,7 +3,7 @@
     
   position: absolute;
   width:  901px;
-    height:  138px;
+    height:  110px;
   left:15%;
     top: -10px;
     background: rgba(255,255,255,.2); 
@@ -19,6 +19,26 @@
     color: #ffffff;
 }
 .info{
+  
+    position: absolute;
+ 
+    top: 40%;
+ left: 15%;
+  width: 900px;
+    height: 683px;
+    background: #000000;
+    background-clip: padding-box;          /* Background stops at border */
+    border: 40px solid rgba(255,255,255,.2);
+    border-radius: 30px;
+    box-shadow:
+       0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
+       0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
+       10px  10px 0    rgba(0,0,0,.8) inset, /* Inner shadow (top + left) */
+      -10px -10px 0    rgba(0,0,0,.8) inset; /* Inner shadow (bottom + right) */
+    padding: 10px;
+    color: #ffffff;
+}
+.donatepage{
   
     position: absolute;
  
@@ -54,13 +74,16 @@ body {
 .info img{
     position: absolute;
     display: block;
+    top: -10px;
+    left: 430px;
+    
 }
 
 .g4hbanner{
    
   position: absolute;
   display: block;
-  top: 80px;
+  top: 50px;
   right: 490px;
     
 }
@@ -70,8 +93,143 @@ body {
     top: 25px;
     left: 830px;
 }
-.info p{
-width: 336px;
+ #PG1{
+     font-family: arial;
+     position: absolute;
+    display: block;
+     top: 146px;
+     left: 22px;
+width: 409px;
     height: 92px;
+     background-color: rgba(255, 255, 255, 0);
     
+}
+#PG2{
+    font-family: arial;
+    position: absolute;
+    display: block;
+    top: 340px;
+    left: 22px;
+    width: 670px;
+    height: 87px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#PG3{
+    font-family: arial;
+    position: absolute;
+    display: block;
+    top: 529px;
+    left: 22px;
+    width: 700px;
+    height: 65px;
+}
+ #about1 {
+    position: absolute;
+    display: block;
+    top: 81px;
+     left: 22px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+ #about2 {
+    position: absolute;
+    display: block;
+    top: 285px;
+     left: 22px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+#about3 {
+    
+      position: absolute;
+    display: block;
+    top: 473px;
+     left: 22px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+.blue{
+    color: #345788;
+}
+.brown{
+    color: #99771c;
+}
+#home1{
+    
+      position: absolute;
+ 
+  left:20%;
+    top: 161px;
+    background: rgba(255,255,255,.2); 
+    background-size: 100px;
+    background-clip: padding-box;          /* Background stops at border */
+    border: 13px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    box-shadow:
+       0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
+       0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
+    
+    padding: 10px;
+    color: #ffffff;
+}
+#donate1{
+    
+      position: absolute;
+ 
+  left:27%;
+    top: 161px;
+    background: rgba(255,255,255,.2); 
+    background-size: 100px;
+    background-clip: padding-box;          /* Background stops at border */
+    border: 13px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    box-shadow:
+       0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
+       0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
+    
+    padding: 10px;
+    color: #ffffff;
+}
+#play1{
+    
+      position: absolute;
+ 
+  left:34%;
+    top: 161px;
+    background: rgba(255,255,255,.2); 
+    background-size: 100px;
+    background-clip: padding-box;          /* Background stops at border */
+    border: 13px solid rgba(255,255,255,.2);
+    border-radius: 10px;
+    box-shadow:
+       0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
+       0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
+    
+    padding: 10px;
+    color: #ffffff;
+}
+.home{
+    
+  position: absolute;
+ 
+  left:20%;
+    top: 161px;
+        border: 13px solid rgba(255,255,255,.0);
+    color: #6b7788;
+}
+.donate{
+          position: absolute;
+ 
+  left:27%;
+    top: 161px;
+        border: 13px solid rgba(255,255,255,.0);
+    color: #6b7788;
+}
+.play{
+          position: absolute;
+ 
+  left:34%;
+    top: 161px;
+        border: 13px solid rgba(255,255,255,.0);
+    color: #6b7788;
 }
