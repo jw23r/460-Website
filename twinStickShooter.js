@@ -41,12 +41,16 @@ class Player{
             preload:function(){
             
                 this.load.image('ship','imgs/twinShip.png');
-                this.load.image('bullet', 'imgs/bullet.png')
-                this.load.image('asteroid', 'imgs/asteroid.png')
+                this.load.image('bullet', 'imgs/bullet.png');
+                this.load.image('asteroid', 'imgs/asteroid.png');
+                
                 
             },
             create:function(){
                // this.add.image(400,300,'bg');
+                var score = 0;
+                var scoreText;
+                scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#ffffff' });
                 this.colldown = 1;
                 this.keySpaceBar = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
                 this.player =  new Player();
@@ -58,7 +62,9 @@ class Player{
 
                 });
                    this.physics.add.overlap(this.bullets, this.asterioids,(b,a)=>{
-                    b.destroy();
+                       score += 10;
+                       scoreText.setText('Score: ' + score);
+                       b.destroy();
                        a.warpBackToTop();
 
                 })
