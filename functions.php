@@ -17,6 +17,8 @@ function pageTop(){
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
             <li><a href="contact.php">Contact</a></li>
+            <li><a href="Microsite1/microsite1.html">Microsite1</a></li>
+            <li><a href="Microsite2/index.html">Microsite2</a></li>
             <li><a href="game1.php">minecraft pinball</a></li>
             <li><a href="connect4.php">connect4</a></li>
             <li><a href="game3.php">race through space</a></li>
