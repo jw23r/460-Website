@@ -40,6 +40,8 @@ header nav ul li a:hover{
 
 .container{
 
+    
+    
     background: #000000;
     background-clip: padding-box;          /* Background stops at border */
     border: 40px solid rgba(255,255,255,.2);
@@ -50,4 +52,5 @@ header nav ul li a:hover{
        10px  10px 0    rgba(0,0,0,.8) inset, /* Inner shadow (top + left) */
       -10px -10px 0    rgba(0,0,0,.8) inset; /* Inner shadow (bottom + right) */
     padding: 10px;
+    color: #ffffff;
 }
