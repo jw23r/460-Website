@@ -200,7 +200,7 @@ width: 409px;
     color: #99771c;
 }
 #home1{
-    
+    display: block;
       position: absolute;
  
   left:27%;
@@ -218,7 +218,7 @@ width: 409px;
     color: #ffffff;
 }
 #donate1{
-    
+     display: block;
       position: absolute;
  
   left:31%;
@@ -236,7 +236,7 @@ width: 409px;
     color: #ffffff;
 }
 #play1{
-    
+     display: block;
       position: absolute;
  
   left:36%;
@@ -254,7 +254,7 @@ width: 409px;
     color: #ffffff;
 }
 .home{
-    
+     display: block;
   position: absolute;
  
   left:27%;
@@ -263,6 +263,7 @@ width: 409px;
     color: #6b7788;
 }
 .donate{
+     display: block;
           position: absolute;
  
   left:31%;
@@ -271,6 +272,7 @@ width: 409px;
     color: #6b7788;
 }
 .play{
+     display: block;
           position: absolute;
  
   left:36%;
