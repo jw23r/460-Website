@@ -4,7 +4,7 @@
   position: absolute;
   width:  901px;
     height:  110px;
-  left:15%;
+  left:25%;
     top: -10px;
     background: rgba(255,255,255,.2); 
     background-size: 100px;
@@ -22,14 +22,14 @@
   
     position: absolute;
  
-    top: 40%;
- left: 15%;
+    top: 23.5%;
+ left: 25%;
   width: 900px;
     height: 683px;
     background: #000000;
     background-clip: padding-box;          /* Background stops at border */
-    border: 20px solid rgba(255,255,255,.2);
-    border-radius: 30px;
+    border: 22px solid rgba(255,255,255,.2);
+    border-radius: 10px;
     box-shadow:
        0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
        0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
@@ -42,14 +42,14 @@
   
     position: absolute;
  
-    top: 40%;
- left: 15%;
+    top:23.5%;
+ left: 25%;
   width: 900px;
     height: 398px;
     background: #000000;
     background-clip: padding-box;          /* Background stops at border */
-    border: 20px solid rgba(255,255,255,.2);
-    border-radius: 20px;
+    border: 22px solid rgba(255,255,255,.2);
+    border-radius: 10px;
     box-shadow:
        0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
        0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
@@ -62,14 +62,14 @@
   
     position: absolute;
  
-    top: 40%;
- left: 15%;
+    top: 23.5%;
+ left: 25%;
   width: 900px;
     height: 884px;
     background: #000000;
     background-clip: padding-box;          /* Background stops at border */
-    border: 20px solid rgba(255,255,255,.2);
-    border-radius: 20px;
+    border: 22px solid rgba(255,255,255,.2);
+    border-radius: 10px;
     box-shadow:
        0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
        0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
@@ -100,8 +100,8 @@ left: 25px;
 body {
      background-image: url("imgs/g4h.jpg");
    background-repeat: no-repeat;
-    width: 1398px;
-    height: 1600px;
+    background-position:top;
+  
     
    
  background-color: #000;
@@ -203,7 +203,7 @@ width: 409px;
     
       position: absolute;
  
-  left:20%;
+  left:27%;
     top: 161px;
     background: rgba(255,255,255,.2); 
     background-size: 100px;
@@ -221,7 +221,7 @@ width: 409px;
     
       position: absolute;
  
-  left:27%;
+  left:31%;
     top: 161px;
     background: rgba(255,255,255,.2); 
     background-size: 100px;
@@ -239,7 +239,7 @@ width: 409px;
     
       position: absolute;
  
-  left:34%;
+  left:36%;
     top: 161px;
     background: rgba(255,255,255,.2); 
     background-size: 100px;
@@ -257,7 +257,7 @@ width: 409px;
     
   position: absolute;
  
-  left:20%;
+  left:27%;
     top: 161px;
         border: 13px solid rgba(255,255,255,.0);
     color: #6b7788;
@@ -265,7 +265,7 @@ width: 409px;
 .donate{
           position: absolute;
  
-  left:27%;
+  left:31%;
     top: 161px;
         border: 13px solid rgba(255,255,255,.0);
     color: #6b7788;
@@ -273,7 +273,7 @@ width: 409px;
 .play{
           position: absolute;
  
-  left:34%;
+  left:36%;
     top: 161px;
         border: 13px solid rgba(255,255,255,.0);
     color: #6b7788;
