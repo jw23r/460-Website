@@ -23,7 +23,7 @@ function pageTop(){
             <li><a href="connect4.php">connect4</a></li>
             <li><a href="game3.php">race through space</a></li>
             <li><a href="game4.php">shootem up</a></li>
-            <li><a href="TextAdventuer.php">Adventuer quest</a></li>
+            <li><a href="form.php">Adventuer quest</a></li>
 
         </ul>
          </nav>
@@ -48,7 +48,7 @@ function pageBottom(){
             <li><a href="connect4.php">connect4</a></li>
             <li><a href="game3.php">race through space</a></li>
             <li><a href="game4.php">shootem up</a></li>
-            <li><a href="TextAdventuer.php">Adventuer quest</a></li>
+            <li><a href="form.php">Adventuer quest</a></li>
 
 
         </ul>
