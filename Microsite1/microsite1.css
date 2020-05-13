@@ -1,16 +1,23 @@
 body{
-    margin:0;
-    background: #9e33ac;
+    
+    background: #7c5e61;
 }
 
 header{
-    height:400px;
-    background:url(imgs/bg_laptop.jpg);
+    position: absolute;
+    height:420px;
+width: 1527px;
+    background:url(imgs/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 }
+
 header nav {
     background:rgba(211,211,211,0.9);
     height:62px;
     box-shadow:2px 3px 10px rgba(0,0,0,.25);
+     
 }
 header nav ul {
     margin:0;
@@ -18,9 +25,10 @@ header nav ul {
     list-style:none;
     float:right;
     display:flex;
+    
 
 }
-header nav ul li a {
+ nav ul li a {
 float:left;
     line-height:62px;
         padding:0 18px;
@@ -32,25 +40,138 @@ float:left;
     
 }
 header nav ul li a:hover{
-    opacity: :1;
+    opacity: 1;
 }
 
 
 
 
-.container{
 
+
+#generic {
+    position: absolute;
+    top:241px;
+    left: 40%;
+}
+
+#tir {
+    position:absolute;
+    top: 10px;
+    left: 50px;
+
+}
+
+
+
+p {
+  
+    font-size: 20pt;
+  
+}
+
+#welcome p {
+    font-size: 40pt;
+}
+
+
+
+.title {
+    position: absolute;
+    left:2%;
+    display: block;
+    font-size: 30pt;
+    width:528;
+    height: 28px;
+}
+
+.container {
+    position: absolute;
+    top: 425px;
+height: 348px;
+    width: 2000px;
+
+    background-color: #eeeeee;
+   
+}
+
+.special {
+      position: absolute;
+    left:2%;
+    top: 25%;
+    font: arial;
+    font-size: 14pt;
     
+    width: 560px;
+    height: 300px;
     
-    background: #000000;
-    background-clip: padding-box;          /* Background stops at border */
-    border: 40px solid rgba(255,255,255,.2);
-    border-radius: 30px;
-    box-shadow:
-       0    0   1px  rgba(255,255,255,.8), /* Bright outer highlight */
-       0    0   30px  rgba(0,0,0,.8),       /* Outer shadow */
-       10px  10px 0    rgba(0,0,0,.8) inset, /* Inner shadow (top + left) */
-      -10px -10px 0    rgba(0,0,0,.8) inset; /* Inner shadow (bottom + right) */
-    padding: 10px;
+}
+
+#trop {
+   position:absolute; 
+    top: 0%;
+    left: 45%
+   
+  
+}
+
+.passion {
+       position: absolute;
+    top: 770px;
+height: 370px;
+    width: 2000px;
+
+    background-color: #537abd;
+}
+
+.square {
+    position: absolute;
+    left: 5%;
+   
+}
+
+.abouts {
+    width: 493px;
+    height: 48px;
+    position: absolute;
+    left: 45%;
     color: #ffffff;
+    bottom: 70%;
+     display: block;
+    font-size: 30pt;
+    width:528;
+    height: 28px;
+}
+
+.infos {
+    width: 493px;
+    height: 48px;
+    position: absolute;
+    left: 45%;
+    color: #ffffff;
+    bottom: 45%;
+     display: block;
+    font-size: 14pt;
+    width:528;
+    height: 28px;
+}
+
+.check {
+    width: 493px;
+    height: 48px;
+    position: absolute;
+    left: 45%;
+    color: #ffffff;
+    bottom: 25%;
+     display: block;
+    font-size: 14pt;
+    width:528;
+    height: 28px;
+}
+
+.map {
+    position: absolute;
+        
+    top: 1100px;
+height: 200px;
+    width: 1700px;
 }
